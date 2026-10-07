@@ -14,28 +14,29 @@ A command-line AI agent built in Python using the OpenAI SDK. The agent can unde
 - Iterative agent loop supporting multi-step reasoning
 
 ## Setup
-
 1. Clone the repository:
    ```bash
    git clone https://github.com/georlia/AI-agent.git
    cd AI-agent
 
 2. Install dependencies using uv:
-uv sync
-
+   ```bash
+    uv sync
 3. Create a .env file in the root directory with your API key:
-API_KEY=your_key_here
+   ```bash
+   API_KEY=your_key_here
 
 ## Usage
 Run the agent with a prompt:
-
-uv run main.py "your prompt here"
-
+ ```bash
+   uv run main.py "your prompt here"
+ ```
 Example:
-uv run main.py "What is the square root of 4?"
+ ```bash
+   uv run main.py "What is the square root of 4?"
+ ```
 
 ## Project Structure
-.
 ├── functions/        # Tool functions the agent can call
 ├── main.py           # Entry point
 ├── prompts.py        # System prompt definition
