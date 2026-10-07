@@ -1,4 +1,4 @@
-# 🕵️‍♂️ AI Agent
+# 🕵️‍♂️ AI Agent with Function Calling
 
 A command-line AI agent built in Python using the OpenAI SDK. The agent can understand natural language prompts and autonomously call functions (tools) to interact with a local file system — reading files, listing directories, writing files, and executing Python scripts.
 
